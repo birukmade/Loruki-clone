@@ -1,4 +1,7 @@
 /* basic global styling and resets */
+:root {
+  --primary-color: #047aed;
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,10 +37,10 @@ img {
   width: 100%;
 }
 
-/* component stylings */
+/* header components stylings */
 
 #main-header {
-  background: #047aed;
+  background: var(--primary-color);
   color: #ffffff;
   height: 5rem;
 }
@@ -76,4 +79,81 @@ img {
 
 #main-header ul li a:hover {
   border-bottom: 2px solid #ffffff;
+}
+
+/* Showcase area and componets stylings*/
+
+#showcase {
+  height: 25rem;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+#showcase .showcase__text h2 {
+  font-size: 2.5rem;
+}
+
+#showcase .showcase__text p {
+  margin: 2rem 0;
+}
+#showcase .container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: visible;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px #00000080;
+  padding: 0.75rem;
+  margin: 0.75rem;
+}
+
+#showcase .showcase__form {
+  position: relative;
+  top: 6rem;
+  padding: 3rem;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+#showcase .showcase__form .form-control {
+  margin: 2rem 0;
+}
+
+.showcase__form input[type="text"],
+.showcase__form input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+  width: 100%;
+  padding: 0.25rem;
+  font-size: 1rem;
+}
+
+.showcase__form input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.btn:hover {
+  transform: scale(0.98);
 }
