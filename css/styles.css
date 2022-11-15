@@ -33,3 +33,47 @@ p {
 img {
   width: 100%;
 }
+
+/* component stylings */
+
+#main-header {
+  background: #047aed;
+  color: #ffffff;
+  height: 5rem;
+}
+
+.container {
+  max-width: 68.75rem;
+  overflow: auto;
+  padding: 0 2.5rem;
+  margin: auto;
+}
+
+#main-header .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-header .container .logo {
+  flex: 2;
+}
+
+#main-header .container nav {
+  flex: 1;
+}
+
+#main-header ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-header ul li a {
+  padding: 0.5rem 0.5rem;
+  color: #ffffff;
+}
+
+#main-header ul li a:hover {
+  border-bottom: 2px solid #ffffff;
+}
