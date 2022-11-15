@@ -1,6 +1,7 @@
 /* basic global styling and resets */
 :root {
   --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
 }
 * {
   margin: 0;
@@ -166,4 +167,35 @@ img {
   position: relative;
   top: -3rem;
   transform: skewY(-6deg);
+}
+
+/* Stats section and componets styings */
+#stats {
+  padding: 3rem 0;
+}
+
+#stats .stats__heading {
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 31rem;
+}
+
+#stats .stats__blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  height: 100%;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+#stats .stats__blocks h3 {
+  font-size: 2rem;
+}
+
+#stats .stats__blocks p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
 }
