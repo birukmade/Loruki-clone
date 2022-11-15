@@ -121,6 +121,7 @@ img {
   padding: 3rem;
   justify-self: flex-end;
   align-self: flex-end;
+  z-index: 1;
 }
 
 #showcase .showcase__form .form-control {
@@ -156,4 +157,14 @@ img {
 
 .btn:hover {
   transform: scale(0.98);
+}
+
+/* Slant area */
+
+#slant {
+  background-color: #ffffff;
+  height: 8rem;
+  position: relative;
+  top: -3rem;
+  transform: skewY(-6deg);
 }
