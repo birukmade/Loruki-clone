@@ -243,7 +243,7 @@ img {
 
 #cloud .container .cloud__text p {
   font-size: 1.25rem;
-  margin: 1.5rem 0;
+  padding-bottom: 1rem;
 }
 
 #cloud .container .cloud__text a {
