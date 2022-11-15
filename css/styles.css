@@ -199,3 +199,20 @@ img {
   font-size: 1.5rem;
   color: var(--secondary-color);
 }
+
+/* Cli section and components styles */
+#cli {
+}
+
+#cli .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+#cli .container img {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
