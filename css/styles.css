@@ -216,3 +216,35 @@ img {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
+
+/* Cloud section and components styles */
+
+#cloud {
+  background-color: var(--primary-color);
+}
+
+#cloud .container {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#cloud .container .cloud__text {
+  color: #ffffff;
+  text-align: center;
+}
+
+#cloud .container .cloud__text h2 {
+  font-size: 3rem;
+}
+
+#cloud .container .cloud__text p {
+  font-size: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+#cloud .container .cloud__text a {
+  background-color: var(--secondary-color);
+}
