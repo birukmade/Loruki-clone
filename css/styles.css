@@ -119,7 +119,6 @@ img {
   position: relative;
   top: 6rem;
   padding: 3rem;
-  justify-self: flex-end;
   align-self: flex-end;
   z-index: 1;
 }
