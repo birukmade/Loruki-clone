@@ -253,6 +253,7 @@ img {
 /* Languages section and components styling */
 
 #languages {
+  padding: 3rem 0;
 }
 #languages h2 {
   text-align: center;
@@ -269,7 +270,7 @@ img {
 #languages ul li {
   text-align: center;
   align-self: stretch;
-  flex-basis: 7rem;
+  flex-basis: 8rem;
   transition: transform 0.2s ease-in;
 }
 
