@@ -63,6 +63,7 @@ img {
 
 #main-header .container .logo {
   flex: 2;
+  font-weight: 700;
 }
 
 #main-header .container nav {
