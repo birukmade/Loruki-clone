@@ -151,6 +151,12 @@ img {
   color: #ffffff;
 }
 
+.showcase__form input.btn {
+  width: 100%;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+}
+
 .btn-outline {
   background-color: transparent;
   border: 1px solid #ffffff;
