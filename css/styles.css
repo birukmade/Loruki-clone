@@ -1,1 +1,35 @@
- 
+/* basic global styling and resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  color: #333333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  margin: 0.75rem 0;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+img {
+  width: 100%;
+}
