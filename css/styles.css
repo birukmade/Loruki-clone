@@ -2,6 +2,7 @@
 :root {
   --primary-color: #047aed;
   --secondary-color: #1c3fa8;
+  --dark-color: #002240;
 }
 * {
   margin: 0;
@@ -278,4 +279,27 @@ img {
 #languages ul li h4 {
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+/* footer styles */
+#main-footer {
+  padding: 4rem;
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+#main-footer .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+#main-footer .container nav a {
+  color: #ffffff;
+}
+
+#main-footer .container .socials a {
+  color: #ffffff;
+  margin: 0 0.75rem;
 }
