@@ -398,6 +398,38 @@ img {
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
+/* FEATURES PAGE STYLES */
+/* docs-head section and components styles */
+
+#docs-head {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+#docs-head .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#docs-head .container .head__text h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+#docs-head .container .head__text p {
+  color: #ffffff;
+}
+
+#docs-head .container img {
+  width: 15rem;
+  justify-self: flex-end;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
 /* Media quireis */
 
 /* Tablet layout */
