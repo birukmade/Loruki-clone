@@ -311,3 +311,58 @@ img {
   color: #ffffff;
   margin: 0 0.75rem;
 }
+
+/* Media quireis */
+
+/* Tablet layout */
+@media (max-width: 768px) {
+  #showcase {
+    height: auto;
+  }
+
+  #showcase .container {
+    grid-template-columns: 1fr;
+  }
+
+  #showcase .showcase__text {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  #stats .stats__blocks {
+    grid-template-columns: 1fr;
+  }
+
+  #cli .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #cli .container img {
+    grid-column: 1 / span 1;
+  }
+
+  #cloud .container {
+    grid-template-columns: 1fr;
+  }
+
+  #main-footer .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile layout */
+
+@media (max-width: 500px) {
+  #main-header {
+    height: 7rem;
+  }
+
+  #main-header .container {
+    flex-direction: column;
+  }
+
+  #main-header nav {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
