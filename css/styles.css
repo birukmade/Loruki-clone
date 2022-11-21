@@ -314,7 +314,7 @@ img {
 
 /* ------------------------------------------------------------------------------------------------------------- */
 /* FEATURES PAGE STYLES */
-/* head section and component styles */
+/* head section and components styles */
 #head {
   background-color: var(--primary-color);
   padding: 2.5rem 0;
@@ -339,6 +339,28 @@ img {
 
 #head .container img {
   width: 15rem;
+  justify-self: flex-end;
+}
+
+/* Sub-head Section and components styling */
+
+#sub-head {
+  padding: 2.5rem;
+}
+
+#sub-head .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+#sub-head .container .sub-head__text h1 {
+  font-size: 2.5rem;
+}
+
+#sub-head .container img {
+  width: 20rem;
   justify-self: flex-end;
 }
 
