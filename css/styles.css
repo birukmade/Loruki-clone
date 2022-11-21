@@ -312,6 +312,38 @@ img {
   margin: 0 0.75rem;
 }
 
+/* ------------------------------------------------------------------------------------------------------------- */
+/* FEATURES PAGE STYLES */
+/* head section and component styles */
+#head {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+#head .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#head .container .head__text h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+#head .container .head__text p {
+  color: #ffffff;
+}
+
+#head .container img {
+  width: 15rem;
+  justify-self: flex-end;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
 /* Media quireis */
 
 /* Tablet layout */
