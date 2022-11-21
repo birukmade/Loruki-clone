@@ -551,12 +551,12 @@ img {
     grid-template-columns: 1fr;
   }
 
-  #sub-head .container img {
-    justify-self: center;
-  }
-
   #sub-head .container .sub-head__text {
     text-align: center;
+  }
+
+  #sub-head .container img {
+    justify-self: center;
   }
 
   #main-features .container {
@@ -571,13 +571,13 @@ img {
     grid-column: 1;
   }
 
-  #main-footer .container {
-    grid-template-columns: 1fr;
-  }
-
   #main-features .container div {
     flex-direction: column;
     padding: 1rem 1rem;
+  }
+
+  #main-footer .container {
+    grid-template-columns: 1fr;
   }
 }
 
