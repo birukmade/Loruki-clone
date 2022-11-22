@@ -576,6 +576,26 @@ img {
     padding: 1rem 1rem;
   }
 
+  #docs-head .container {
+    grid-template-columns: 1fr;
+  }
+
+  #docs-head .container .head__text {
+    text-align: center;
+  }
+
+  #docs-head .container img {
+    justify-self: center;
+  }
+
+  #docs-main .container {
+    grid-template-columns: 1fr;
+  }
+
+  #docs-main .container .card:nth-of-type(2) {
+    text-align: center;
+  }
+
   #main-footer .container {
     grid-template-columns: 1fr;
   }
