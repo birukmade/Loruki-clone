@@ -52,7 +52,6 @@ img {
 
 .container {
   max-width: 68.75rem;
-  overflow: auto;
   padding: 0 2.5rem;
   margin: auto;
 }
