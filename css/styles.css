@@ -161,12 +161,15 @@ img {
 }
 
 .btn-outline {
-  background-color: transparent;
-  border: 1px solid #ffffff;
+  background-color: var(--secondary-color);
 }
 
 .btn:hover {
   transform: scale(0.98);
+}
+
+.btn-outline:hover {
+  background-color: #1c3fa6cc;
 }
 
 /* Slant area */
@@ -257,6 +260,10 @@ img {
 
 #cloud .container .cloud__text a {
   background-color: var(--secondary-color);
+}
+
+#cloud .container .cloud__text a:hover {
+  background-color: #1c3fa6cc;
 }
 
 /* Languages section and components styling */
@@ -489,6 +496,10 @@ img {
 #docs-main .container .install-cli {
   text-align: center;
   margin: 2rem 0;
+}
+
+#docs-main a.btn:hover {
+  background-color: #047aedcc;
 }
 
 #docs-main .container code,
